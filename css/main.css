@@ -1,0 +1,312 @@
+.header {
+  margin: 1vw 0 5vw 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 0.85vw;
+}
+.header .logo .img_logo {
+  width: 18.59vw;
+}
+.header .navig {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.header .navig ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header .navig li {
+  margin-right: 2vw;
+}
+.header .navig .a_header {
+  color: #000000;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.04vw;
+}
+.header .navig .a_header ::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 1.5px;
+  background-color: #ffffff;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+.header .navig .a_header :hover:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 1.5px;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+.header .butt .tel {
+  display: inline-block;
+  margin: 9px 15px;
+  border-radius: 0.5vw;
+  height: 2.4vw;
+  line-height: 2.4vw;
+  font-size: 1.04vw;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.paragrath_1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.paragrath_1 .grid1_1 {
+  display: grid;
+  grid-template-columns: repeat(3, 8.75vw);
+  grid-template-rows: repeat(3, 9.38vw);
+  gap: 1.82vw;
+  justify-items: stretch;
+  margin-right: 3.23vw;
+}
+.paragrath_1 .grid1_1 .div1_1 {
+  grid-area: 1/1/3/3;
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.paragrath_1 .grid1_1 .div1_1 img {
+  height: 100%;
+}
+.paragrath_1 .grid1_1 .div2_1 {
+  grid-area: 3/1/4/3;
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.paragrath_1 .grid1_1 .div2_1 img {
+  height: 100%;
+}
+.paragrath_1 .grid1_1 .div3_1 {
+  grid-area: 1/3/2/4;
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+.paragrath_1 .grid1_1 .div3_1 img {
+  height: 100%;
+}
+.paragrath_1 .grid1_1 .div4_1 {
+  grid-area: 2/3/4/4;
+}
+.paragrath_1 .grid1_1 .div4_1 img {
+  height: 100%;
+}
+.paragrath_1 .grid2_1 {
+  display: grid;
+  grid-template-columns: repeat(3, 8.75vw);
+  grid-template-rows: repeat(3, 9.38vw);
+  gap: 1.82vw;
+}
+.paragrath_1 .grid2_1 .div5_1 {
+  grid-area: 1/1/2/4;
+}
+.paragrath_1 .grid2_1 .div5_1 .h1_1 {
+  font-size: 3.39vw;
+  font-weight: 400;
+  text-align: left;
+}
+.paragrath_1 .grid2_1 .div6_1 {
+  grid-area: 2/1/4/4;
+}
+.paragrath_1 .grid2_1 .div6_1 .p_1 {
+  font-size: 1.04vw;
+  font-weight: 200;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 1.82vw;
+}
+.paragrath_1 .grid2_1 .div6_1 .butt {
+  border: 0.05vw solid rgb(0, 0, 0);
+  font-size: 0.73vw;
+  color: rgb(0, 0, 0);
+  background: none;
+  cursor: pointer;
+  padding: 0.89vw 2.08vw;
+  display: inline-block;
+  position: relative;
+  border-radius: 4rem;
+  font-weight: 500;
+}
+
+.paragrath_2 {
+  margin-top: 9.38vw;
+  position: relative;
+}
+.paragrath_2 .p_2 {
+  font-size: 3.39vw;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 2.34vw;
+}
+.paragrath_2 .grid_2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 5.68vw;
+  justify-items: center;
+}
+.paragrath_2 img {
+  width: 100%;
+}
+.paragrath_2 .retro_car {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 27vw;
+  left: 11.35vw;
+}
+
+.paragrath_3 {
+  margin-top: 25vw;
+}
+.paragrath_3 .p_3 {
+  font-size: 3.39vw;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 2.34vw;
+}
+.paragrath_3 a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.paragrath_3 a :hover {
+  border-bottom: 2px solid white;
+}
+.paragrath_3 .grid_3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 5.5vw;
+  justify-items: center;
+}
+.paragrath_3 .grid_3 .div1_3 {
+  place-self: center start;
+  position: relative;
+}
+.paragrath_3 .grid_3 .div1_3 p {
+  color: white;
+  font-size: 1.04vw;
+  font-weight: 500;
+  position: absolute;
+  top: 21.88vw;
+  right: 13.2vw;
+}
+.paragrath_3 .grid_3 .div1_3 img {
+  width: 100%;
+}
+.paragrath_3 .grid_3 .div2_3 {
+  place-self: center center;
+  position: relative;
+}
+.paragrath_3 .grid_3 .div2_3 p {
+  color: white;
+  font-size: 1.04vw;
+  font-weight: 500;
+  position: absolute;
+  top: 21.88vw;
+  right: 4.2vw;
+}
+.paragrath_3 .grid_3 .div2_3 img {
+  width: 100%;
+}
+.paragrath_3 .grid_3 .div3_3 {
+  place-self: center end;
+  position: relative;
+}
+.paragrath_3 .grid_3 .div3_3 p {
+  color: white;
+  font-size: 1.04vw;
+  font-weight: 500;
+  position: absolute;
+  top: 21.88vw;
+  right: 12vw;
+}
+.paragrath_3 .grid_3 .div3_3 img {
+  width: 100%;
+}
+
+.paragrath_4 {
+  margin-top: 10vw;
+  display: block;
+}
+.paragrath_4 .p_4 {
+  font-size: 3.39vw;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 2.34vw;
+}
+.paragrath_4 .div1_4 {
+  width: 49.48vw;
+  margin-bottom: 5vw;
+}
+.paragrath_4 .img_4 {
+  text-align: center;
+}
+.paragrath_4 .img_4 img {
+  width: 85%;
+}
+
+@font-face {
+  font-family: "Unbounded";
+  src: local("Unbounded"), url(/fonts/Unbounded/Unbounded-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded", "sans serif";
+}
+
+body {
+  margin: 0 10vw 10vw 10vw;
+}/*# sourceMappingURL=main.css.map */

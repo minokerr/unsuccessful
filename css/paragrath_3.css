@@ -1,0 +1,68 @@
+.paragrath_3 {
+  margin-top: 25vw;
+}
+.paragrath_3 .p_3 {
+  font-size: 3.39vw;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 2.34vw;
+}
+.paragrath_3 a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.paragrath_3 a :hover {
+  border-bottom: 2px solid white;
+}
+.paragrath_3 .grid_3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 5.5vw;
+  justify-items: center;
+}
+.paragrath_3 .grid_3 .div1_3 {
+  place-self: center start;
+  position: relative;
+}
+.paragrath_3 .grid_3 .div1_3 p {
+  color: white;
+  font-size: 1.04vw;
+  font-weight: 500;
+  position: absolute;
+  top: 21.88vw;
+  right: 13.2vw;
+}
+.paragrath_3 .grid_3 .div1_3 img {
+  width: 100%;
+}
+.paragrath_3 .grid_3 .div2_3 {
+  place-self: center center;
+  position: relative;
+}
+.paragrath_3 .grid_3 .div2_3 p {
+  color: white;
+  font-size: 1.04vw;
+  font-weight: 500;
+  position: absolute;
+  top: 21.88vw;
+  right: 4.2vw;
+}
+.paragrath_3 .grid_3 .div2_3 img {
+  width: 100%;
+}
+.paragrath_3 .grid_3 .div3_3 {
+  place-self: center end;
+  position: relative;
+}
+.paragrath_3 .grid_3 .div3_3 p {
+  color: white;
+  font-size: 1.04vw;
+  font-weight: 500;
+  position: absolute;
+  top: 21.88vw;
+  right: 12vw;
+}
+.paragrath_3 .grid_3 .div3_3 img {
+  width: 100%;
+}/*# sourceMappingURL=paragrath_3.css.map */

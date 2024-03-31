@@ -1,0 +1,95 @@
+.paragrath_1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.paragrath_1 .grid1_1 {
+  display: grid;
+  grid-template-columns: repeat(3, 8.75vw);
+  grid-template-rows: repeat(3, 9.38vw);
+  gap: 1.82vw;
+  justify-items: stretch;
+  margin-right: 3.23vw;
+}
+.paragrath_1 .grid1_1 .div1_1 {
+  grid-area: 1/1/3/3;
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.paragrath_1 .grid1_1 .div1_1 img {
+  height: 100%;
+}
+.paragrath_1 .grid1_1 .div2_1 {
+  grid-area: 3/1/4/3;
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.paragrath_1 .grid1_1 .div2_1 img {
+  height: 100%;
+}
+.paragrath_1 .grid1_1 .div3_1 {
+  grid-area: 1/3/2/4;
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+.paragrath_1 .grid1_1 .div3_1 img {
+  height: 100%;
+}
+.paragrath_1 .grid1_1 .div4_1 {
+  grid-area: 2/3/4/4;
+}
+.paragrath_1 .grid1_1 .div4_1 img {
+  height: 100%;
+}
+.paragrath_1 .grid2_1 {
+  display: grid;
+  grid-template-columns: repeat(3, 8.75vw);
+  grid-template-rows: repeat(3, 9.38vw);
+  gap: 1.82vw;
+}
+.paragrath_1 .grid2_1 .div5_1 {
+  grid-area: 1/1/2/4;
+}
+.paragrath_1 .grid2_1 .div5_1 .h1_1 {
+  font-size: 3.39vw;
+  font-weight: 400;
+  text-align: left;
+}
+.paragrath_1 .grid2_1 .div6_1 {
+  grid-area: 2/1/4/4;
+}
+.paragrath_1 .grid2_1 .div6_1 .p_1 {
+  font-size: 1.04vw;
+  font-weight: 200;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 1.82vw;
+}
+.paragrath_1 .grid2_1 .div6_1 .butt {
+  border: 0.05vw solid rgb(0, 0, 0);
+  font-size: 0.73vw;
+  color: rgb(0, 0, 0);
+  background: none;
+  cursor: pointer;
+  padding: 0.89vw 2.08vw;
+  display: inline-block;
+  position: relative;
+  border-radius: 4rem;
+  font-weight: 500;
+}/*# sourceMappingURL=paragrath_1.css.map */

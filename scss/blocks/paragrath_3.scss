@@ -1,0 +1,70 @@
+.paragrath_3 {
+    margin-top: 25vw;
+    .p_3{
+        font-size: 3.39vw;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 2.34vw;
+    }
+    a {
+        cursor: pointer;
+        text-decoration: none;
+        :hover{
+            border-bottom: 2px solid white;
+        }
+    }
+    .grid_3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 5.5vw;
+        justify-items: center;
+        .div1_3 {
+            place-self: center start;
+            position: relative;
+            p {
+                color: white;
+                font-size: 1.04vw;
+                font-weight: 500;
+                position: absolute;
+                top:21.88vw;
+                right: 13.2vw;
+            }
+            img {
+                width: 100%;
+            }
+
+        }
+        .div2_3 {
+            place-self: center center;
+            position: relative;
+            p {
+                color: white;
+                font-size: 1.04vw;
+                font-weight: 500;
+                position: absolute;
+                top:21.88vw;
+                right: 4.2vw;
+            }
+            img {
+                width: 100%;
+            }
+
+        }
+        .div3_3 {
+            place-self: center end;
+            position: relative;
+            p {
+                color: white;
+                font-size: 1.04vw;
+                font-weight: 500;
+                position: absolute;
+                top:21.88vw;
+                right: 12vw;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

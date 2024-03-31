@@ -1,0 +1,21 @@
+@import "./blocks/header.scss";
+@import "./blocks/paragrath_1.scss";
+@import "./blocks/paragrath_2.scss";
+@import "./blocks/paragrath_3.scss";
+@import "./blocks/paragrath_4.scss";
+
+@font-face {
+	font-family: 'Unbounded'; 
+	src: local('Unbounded'),
+		url(/fonts/Unbounded/Unbounded-VariableFont_wght.ttf); 
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Unbounded', 'sans serif';
+}
+body {
+    margin: 0 10vw 10vw 10vw;
+}
